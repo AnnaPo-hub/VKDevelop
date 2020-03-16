@@ -12,7 +12,7 @@ public class PostData {
 
     private CommentsService commentsService;
     private LikesService likesService;
-    private ViesService viesService;
+    private ViewsService viesService;
     private GeoService geoService;
 
     int signedID; //если от имени сообщества, но подписано автором
@@ -101,11 +101,11 @@ public class PostData {
         this.likesService = likesService;
     }
 
-    public ViesService getViesService() {
+    public ViewsService getViesService() {
         return viesService;
     }
 
-    public void setViesService(ViesService viesService) {
+    public void setViesService(ViewsService viesService) {
         this.viesService = viesService;
     }
 
